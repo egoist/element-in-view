@@ -9,7 +9,7 @@
 
 ## Comparison
 
-Comparing to [in-viewport](https://github.com/vvo/in-viewport) and [in-view](https://github.com/camwiegert/in-view), `element-in-view` only exports a function for checking if an element is in viewport, handling events and other stuffs are left to user-land. In fact, this library is extracted from [in-view](https://github.com/camwiegert/in-view), I tried to use that library in [vue-mugen-scroll](https://github.com/egoist/vue-mugen-scroll), I need to use a custom logic to listen events, so many features in `in-view` become useless, that's why this library exists.
+Comparing to [in-viewport](https://github.com/vvo/in-viewport) and [in-view](https://github.com/camwiegert/in-view), `element-in-view` only exports a function for checking if an element is in viewport, handling events and other stuffs are left to user-land. In fact, this library is extracted from [in-view](https://github.com/camwiegert/in-view), I tried to use that library in [vue-mugen-scroll](https://github.com/egoist/vue-mugen-scroll), I need to use a custom logic to handle events, so many features in `in-view` become useless, that's why this library exists.
 
 ## Install
 
