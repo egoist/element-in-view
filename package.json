@@ -1,6 +1,6 @@
 {
   "name": "element-in-view",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Check if an element is in viewport.",
   "repository": {
     "url": "egoist/element-in-view",
@@ -18,9 +18,7 @@
   },
   "author": "egoist <0x142857@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint-config-rem": "^3.0.0",
     "xo": "^0.18.0",
@@ -28,6 +26,8 @@
   },
   "xo": {
     "extends": "rem/prettier",
-    "envs": ["browser"]
+    "envs": [
+      "browser"
+    ]
   }
 }
