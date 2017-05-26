@@ -1,0 +1,33 @@
+{
+  "name": "element-in-view",
+  "version": "0.0.0",
+  "description": "Check if an element is in viewport.",
+  "repository": {
+    "url": "egoist/element-in-view",
+    "type": "git"
+  },
+  "main": "dist/element-in-view.common.js",
+  "unpkg": "dist/element-in-view.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo 'no tests!' && npm run lint && npm run build",
+    "lint": "xo",
+    "build": "bili --format cjs --format umd --compress"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "xo": "^0.18.0",
+    "bili": "^0.15.0"
+  },
+  "xo": {
+    "extends": "rem/prettier",
+    "envs": ["browser"]
+  }
+}
