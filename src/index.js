@@ -1,4 +1,4 @@
-export default (element, { offset = 0, threshold = 0 } = {}) => {
+export default (element, { offset = 0, threshold = 0, startTop = 0 } = {}) => {
   const {
     top,
     right,
@@ -11,7 +11,7 @@ export default (element, { offset = 0, threshold = 0 } = {}) => {
   const intersection = {
     t: bottom,
     r: window.innerWidth - left,
-    b: window.innerHeight - top,
+    b: window.innerHeight - top + startTop,
     l: right
   }
 
